@@ -12,6 +12,14 @@
     font-style: normal;
 }
 
+@font-face {
+  font-family: "Oxanium";
+  src: url("fonts/Oxanium-Bold.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 #Titulo {
     font-family: "miFuente2", sans-serif;
     text-align: center;
@@ -33,7 +41,7 @@ body {
   background: linear-gradient(135deg, #ffffff, #f3f4f6, #e5e7eb);
   background-attachment: fixed;
   color: #222;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'OpenSans', sans-serif;
   margin: 0;
   padding: 2rem;
 }
@@ -50,6 +58,7 @@ body {
 
 #nombre_foto_perfil {
   text-align: center;
+  font-family: "Oxanium";
 }
 
 
