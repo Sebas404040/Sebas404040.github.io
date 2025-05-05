@@ -67,6 +67,22 @@ body {
   color: #004e55;
 }
 
+#flex1 {
+  display: flex;
+  gap: 2%;
+}
+
+#Contacto, #Sitios_web {
+  flex: 1;
+  border: 2px solid black;
+  padding: 1rem;
+  box-sizing: border-box;
+  box-shadow: 0 2px 8px rgb(0, 83, 119);
+}
+
+
+
+
 
  
   
