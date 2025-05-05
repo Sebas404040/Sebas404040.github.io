@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url('fonts/OpenSans-Regular.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: "miFuente2";
+    src: url("fonts/LeagueSpartan-Bold.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+#Titulo {
+    font-family: "miFuente2", sans-serif;
+    text-align: center;
+}
+
+header{
+    font-family: "OpenSans";
+}
+
+hr {
+  border: none;
+  height: 5px;
+  background: linear-gradient(to right, #0400ff, #ff005d);
+  width: 100%;
+  margin: 2rem auto;
+}
+
+
+  
+  
+
+ 
+  
