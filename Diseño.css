@@ -114,6 +114,44 @@ body {
   transition: width 0.8s ease-in-out;
 }
 
+#Contenedor_1 {
+  display: flex;
+  gap: 2%;
+}
+
+#Descripcion_1, #Imagen_tecnico_sistemas {
+  flex: 1;
+  border: 2px solid black;
+  padding: 1rem;
+  box-sizing: border-box;
+  box-shadow: 0 2px 8px rgb(0, 83, 119);
+}
+
+#Contenedor_3 {
+  display: flex;
+  gap: 2%;
+}
+
+#Descripcion_3, #Imagen_java {
+  flex: 1;
+  border: 2px solid black;
+  padding: 1rem;
+  box-sizing: border-box;
+  box-shadow: 0 2px 8px rgb(0, 83, 119);
+}
+
+#Contenedor_4 {
+  display: flex;
+  gap: 2%;
+}
+
+#Descripcion_4, #Imagen_C {
+  flex: 1;
+  border: 2px solid black;
+  padding: 1rem;
+  box-sizing: border-box;
+  box-shadow: 0 2px 8px rgb(0, 83, 119);
+}
 
 
 
