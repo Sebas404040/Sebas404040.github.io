@@ -59,6 +59,8 @@ body {
 #nombre_foto_perfil {
   text-align: center;
   font-family: "Oxanium";
+  font-size: 50px;
+  color: #2302a3;
 }
 
 .secciones{
@@ -80,6 +82,14 @@ body {
   box-shadow: 0 2px 8px rgb(0, 83, 119);
 }
 
+#Imagen_resumen_profesional {
+  height: 40%;
+  object-fit: cover;
+  border-radius: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 
