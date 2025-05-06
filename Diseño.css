@@ -174,6 +174,27 @@ body {
   box-shadow: 0 2px 8px rgb(248, 145, 9);
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 2s ease-in;
+}
+
+.img-glow {
+  transition: box-shadow 0.4s ease;
+}
+
+.img-glow:hover {
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.7);
+}
+
 
 
 
