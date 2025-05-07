@@ -195,8 +195,20 @@ body {
   box-shadow: 0 0 20px rgba(0, 255, 255, 0.7);
 }
 
+.Barra_navegacion {
+  width: 100%;
+  background-color: #000000;
+  color: #fff;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 255, 255, 0.7);
+}
 
-
-
- 
-  
+#Opciones {
+  display: flex;
+  flex-direction: row;
+  gap: 20%;
+}
