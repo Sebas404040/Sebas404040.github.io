@@ -197,7 +197,7 @@ body {
 
 .Barra_navegacion {
   width: 100%;
-  background-color: #000000;
+  background-color: #050505;
   color: #fff;
   padding: 10px 0;
   position: fixed;
@@ -212,3 +212,28 @@ body {
   flex-direction: row;
   gap: 20%;
 }
+
+.idiomas_ingles {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 10%;
+  justify-content: space-around;
+}
+
+.idiomas_español {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 10%;
+  justify-content: space-around;
+}
+
+#Bandera_USA {
+  width: 20%;
+}
+
+#Bandera_ES {
+  width: 20%;
+}
+
