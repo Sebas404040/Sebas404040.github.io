@@ -196,6 +196,41 @@ body {
   box-shadow: 0 0 20px rgba(0, 255, 255, 0.7);
 }
 
+.idiomas_ingles {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 10%;
+  justify-content: flex-end;
+}
+
+.idiomas_español {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 10%;
+  justify-content: flex-end;
+}
+
+#Bandera_USA {
+  border-radius: 20%;
+  width: 20%;
+}
+
+#Bandera_ES {
+  border-radius: 20%;
+  width: 20%;
+}
+
+@keyframes llenarbarra{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 85%;
+  }
+}
+
 .Barra_navegacion {
   width: 100%;
   background-color: #000000;
