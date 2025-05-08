@@ -242,17 +242,15 @@ body {
   z-index: 1000;
   box-shadow: 0 2px 10px rgba(0, 255, 255, 0.7);
   text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 10%;
 }
 
-#Opciones {
+.atajos {
   display: flex;
   flex-direction: row;
-  gap: 20%;
-}
-
-#Contenedor_navegacion {
-  display: flex;
-  gap: 15%;
+  gap: 10%;
   align-items: center;
 }
 
