@@ -290,7 +290,7 @@ body {
   display: none;
 }
 
-/* Iconos de redes */
+
 .img_tab {
   flex: 1;
   display: flex;
@@ -312,7 +312,10 @@ body {
   box-shadow: 0 4px 15px rgba(0, 122, 204, 0.5);
 }
 
-/* Móviles */
+#menu-toggle{
+  opacity: 0%;
+}
+
 @media (max-width: 768px) {
   .menu-icon {
       display: block;
@@ -345,7 +348,6 @@ body {
   }
 }
 
-/* Transición suave */
 .atajos {
   transition: all 0.3s ease-in-out;
 }
