@@ -246,7 +246,7 @@ body {
   width: 95%;
   background: rgba(255, 255, 255, 0.9);
   color: #004e55;
-  padding: 1px 30px;
+  padding: 10px 30px;
   position: fixed;
   top: 0;
   left: 50%;
@@ -266,19 +266,12 @@ body {
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
 }
 
-#Contenedor_navegacion h3 {
-  font-family: "Oxanium";
-  font-size: 28px;
-  color: #007acc;
-  margin: 0;
-}
-
 .atajos {
-  flex: 2;
   display: flex;
   gap: 20px;
-  justify-content: center;
+  flex-wrap: nowrap;
 }
+
 
 .atajos h4 a {
   color: #004e55;
@@ -293,6 +286,11 @@ body {
   color: #007acc;
 }
 
+.menu-icon {
+  display: none;
+}
+
+/* Iconos de redes */
 .img_tab {
   flex: 1;
   display: flex;
@@ -314,13 +312,52 @@ body {
   box-shadow: 0 4px 15px rgba(0, 122, 204, 0.5);
 }
 
+/* Móviles */
+@media (max-width: 768px) {
+  .menu-icon {
+      display: block;
+      font-size: 30px;
+      cursor: pointer;
+      margin-left: auto;
+  }
+
+  #menu-toggle {
+      display: none;
+  }
+
+  #menu-toggle:checked + .menu-icon + .atajos {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      width: 100%;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      background-color: rgba(255, 255, 255, 0.95);
+      padding: 20px 0;
+      border-radius: 0 0 20px 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  .atajos {
+      display: none;
+  }
+}
+
+/* Transición suave */
+.atajos {
+  transition: all 0.3s ease-in-out;
+}
+
 footer {
   text-align: center;
   background-color: #f3f4f6;
   border-radius: 20px;
-  padding: 5px;
+  padding: 10px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
+
 
 
 
