@@ -131,6 +131,10 @@ body {
   box-shadow: 0 2px 8px rgb(0, 83, 119);
 }
 
+#imagen_campus {
+  width: 20%;
+}
+
 #Contenedor_historial {
   display: flex;
   gap: 2%;
