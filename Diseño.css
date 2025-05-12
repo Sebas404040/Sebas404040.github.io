@@ -80,6 +80,8 @@ body {
   border: 2px solid black;
   padding: 1rem;
   box-sizing: border-box;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
   box-shadow: 0 2px 8px rgb(0, 83, 119);
 }
 
@@ -344,6 +346,11 @@ body {
   .imagenes_formacion {
     width: 80%; 
   }
+
+  #imagen_campus {
+    width: 60%;
+  }
+
   #Contenedor_historial {
     display: flex;
     flex-direction: column;
